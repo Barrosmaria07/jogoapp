@@ -3,6 +3,25 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="jogoapp.MainPage">
 
-  
+  <Grid>
+    <Image Source = "capadojogo"
+     Aspect="AspectFill"/>
+
+    <VerticalStackLayout
+     VerticalOptions="End"
+     Spacing="10"
+     Margin="15,0,15,40"/>
+
+ 
+    <Button Text="Começar 🐾"
+            Margin="20"
+            HeightRequest="50"
+            CornerRadius="30"
+            BackgroundColor="#467339"
+            TextColor="#e6e2d1"
+            FontSize="19"
+            HorizontalOptions="FillAndExpand"/>
+           
+    </Grid>
 
 </ContentPage>
