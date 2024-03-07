@@ -13,15 +13,31 @@
      Margin="15,0,15,40"/>
 
  
-    <Button Text="Começar 🐾"
-            Margin="20"
+    <Button Text="Começar🐾"
+            Clicked="StartButton_comecar"
+            BorderColor="White"
+            BorderWidth="1"
+            Margin="2, 430, 2, 0"
             HeightRequest="50"
             CornerRadius="30"
-            BackgroundColor="#467339"
+            BackgroundColor="#bd9d6a"
             TextColor="#e6e2d1"
-            FontSize="19"
-            HorizontalOptions="FillAndExpand"/>
-           
-    </Grid>
+            FontSize="19"/>
 
+         <Button Text="Sobre🐾"
+                 Clicked="StartButton_sobre"
+                 BorderColor="White"
+                 BorderWidth="1"
+                 Margin="2, 550, 0, 2"
+                 HeightRequest="50"
+                 CornerRadius="40"
+                 BackgroundColor="#bd9d6a"
+                 FontSize="19"/>
+
+
+
+
+
+
+</Grid>
 </ContentPage>
