@@ -4,9 +4,50 @@
              x:Class="jogoapp.inicio">
 
 
+<Grid>
+    <Image
+    Source = "fotoinicio.png"
+     Aspect="AspectFill"/>
+
+    <VerticalStackLayout
+     VerticalOptions="End"
+     Spacing="10"
+     Margin="15,0,15,40"/>
+
+<Label Text=" Olá eu sou Puppy, um adorável filhote que vivia em um abrigo para animais. Minha jornada começou quando uma família decidiu me adotar.
+Querido jogador,  A partir desse momento, a vida de Puppy será guiada pelas suas escolhas , influenciando suas experiências, amizades e aventuras."
+       TextColor="Black"
+       Margin="50"
+       FontSize="20"
+       HorizontalOptions="Center"
+
+       />
+ 
+    <Button Text="Continuar🐾"
+            Clicked="StartButton_continuar"
+            BorderColor="White"
+            BorderWidth="1"
+            Margin="2, 430, 2, 0"
+            HeightRequest="50"
+            CornerRadius="30"
+            BackgroundColor="#bd9d6a"
+            TextColor="#e6e2d1"
+            FontSize="19"/>
+
+         <Button Text="voltar🐾"
+                 Clicked="StartButton_voltar"
+                 BorderColor="White"
+                 BorderWidth="1"
+                 Margin="2, 550, 0, 2"
+                 HeightRequest="50"
+                 CornerRadius="40"
+                 BackgroundColor="#bd9d6a"
+                 FontSize="19"/>
 
 
 
 
 
- </ContentPage>
+
+</Grid>
+</ContentPage>

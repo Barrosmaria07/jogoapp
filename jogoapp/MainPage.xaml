@@ -4,7 +4,7 @@
              x:Class="jogoapp.MainPage">
 
   <Grid>
-    <Image Source = "capadojogo"
+    <Image Source = "capadojogo.png"
      Aspect="AspectFill"/>
 
     <VerticalStackLayout
@@ -34,10 +34,60 @@
                  BackgroundColor="#bd9d6a"
                  FontSize="19"/>
 
+        </VerticalStackLayout>
+
+          <Frame
+           x:Name="sobre"
+           IsVisible="false"
+           Margin="10,20"
+           CornerRadius="20"
+           BackgroundColor="Green"
+           HorizontalOptions="Fill"
+           VerticalOptions="Fill">
+                <Grid>
+                  <Grid.RownDefinitions>
+                        <RownDefinitions Height="90"/>
+                        <RownDefinitions Height="*"/>
+                        <RownDefinitions Height="60"/
+                        </Grid.RownDefinitions>
+                <Label
+                   Text="sobre"
+                   TextColor="Black"
+                   Margin="20"
+                   FontSize="40"
+                   FontFamily="sobre"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"
+                   Grid.Row="0"/>
+
+                <Label
+                    Text="Esse é um jogo desenvolvido por Maria Eduarda Cordeiro Barros, espero que gostem 😸"
+                    CharacterSpacing="1"
+                    LineHeight="1.5"
+                    TextColor="Black"
+                    BackgroundColor="#bd9d6a"
+                    HorizontalOptions="Center"
+                    HorizontalAlignment="Center"
+                    HorizontalOptions="Center"
+                    FontSize="20"
+                    FontFAmily="letra.ttf"
+                    Grid.Row="1"/>
+                
+                <Button
+                  Text="voltar🐾"
+                  Clicked="voltar"
+                  HeightRequest="50"
+                  CornerRadius="25"
+                  BackgroundColor="Blue"
+                  TextColor="White"
+                  Margin="0,0,0,10"
+                  FontSize="18"
+                  FontFamily="letra.ttf"
+                  GridRow="2"/>
+                  
 
 
-
-
-
-</Grid>
+            </Grid>
+        </Frame>
+    </Grid>    
 </ContentPage>
