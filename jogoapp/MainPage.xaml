@@ -10,51 +10,51 @@
     <VerticalStackLayout
      VerticalOptions="End"
      Spacing="10"
-     Margin="15,0,15,40"/>
+     Margin="15,0,15,40">
 
  
     <Button Text="Começar🐾"
             Clicked="StartButton_comecar"
             BorderColor="White"
             BorderWidth="1"
-            Margin="2, 430, 2, 0"
-            HeightRequest="50"
+            Margin="2, 500, 2, 0"
+            HeightRequest="30"
             CornerRadius="30"
             BackgroundColor="#bd9d6a"
-            TextColor="#e6e2d1"
+            TextColor="White"
             FontSize="19"/>
 
          <Button Text="Sobre🐾"
                  Clicked="StartButton_sobre"
                  BorderColor="White"
                  BorderWidth="1"
-                 Margin="2, 550, 0, 2"
-                 HeightRequest="50"
-                 CornerRadius="40"
+                 Margin="2, 20, 0, 2"
+                 HeightRequest="30"
+                 CornerRadius="30"
                  BackgroundColor="#bd9d6a"
                  FontSize="19"/>
 
         </VerticalStackLayout>
 
           <Frame
-           x:Name="sobre"
+           x:Name="framesobre"
            IsVisible="false"
            Margin="10,20"
            CornerRadius="20"
-           BackgroundColor="Green"
+           BackgroundColor="#c2b391"
            HorizontalOptions="Fill"
            VerticalOptions="Fill">
                 <Grid>
-                  <Grid.RownDefinitions>
-                        <RownDefinitions Height="90"/>
-                        <RownDefinitions Height="*"/>
-                        <RownDefinitions Height="60"/
-                        </Grid.RownDefinitions>
+                  <Grid.RowDefinitions>
+                        <RowDefinition Height="90"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="60"/>
+                  </Grid.RowDefinitions>
                 <Label
                    Text="sobre"
-                   TextColor="Black"
+                   TextColor="#3b321c"
                    Margin="20"
-                   FontSize="40"
+                   FontSize="20"
                    FontFamily="sobre"
                    HorizontalOptions="Center"
                    HorizontalTextAlignment="Center"
@@ -64,26 +64,27 @@
                     Text="Esse é um jogo desenvolvido por Maria Eduarda Cordeiro Barros, espero que gostem 😸"
                     CharacterSpacing="1"
                     LineHeight="1.5"
-                    TextColor="Black"
-                    BackgroundColor="#bd9d6a"
+                    TextColor="White"
+                    BackgroundColor="#698a6a"
                     HorizontalOptions="Center"
-                    HorizontalAlignment="Center"
-                    HorizontalOptions="Center"
-                    FontSize="20"
-                    FontFAmily="letra.ttf"
+                    HorizontalTextAlignment="Center"
+                    FontSize="30"
+                    FontFamily="fonte"
                     Grid.Row="1"/>
                 
                 <Button
                   Text="voltar🐾"
                   Clicked="voltar"
+                  BorderColor="White"
+                  BorderWidth="1"
                   HeightRequest="50"
                   CornerRadius="25"
-                  BackgroundColor="Blue"
-                  TextColor="White"
+                  BackgroundColor="#bd9d6a"
+                  TextColor="white"
                   Margin="0,0,0,10"
                   FontSize="18"
-                  FontFamily="letra.ttf"
-                  GridRow="2"/>
+                  FontFamily="fonte"
+                  Grid.Row="2"/>
                   
 
 

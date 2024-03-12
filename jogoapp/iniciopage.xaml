@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="jogoapp.inicio">
+             x:Class="jogoapp.iniciopage">
 
 
 <Grid>
@@ -12,11 +12,9 @@
     <VerticalStackLayout
      VerticalOptions="End"
      Spacing="10"
-     Margin="15,0,15,40"/>
+     Margin="15,0,15,40">
 
-<Label Text=" Olá eu sou Puppy, um adorável filhote que vivia em um abrigo para animais. Minha jornada começou quando uma família decidiu me adotar.
-Querido jogador,  A partir desse momento, a vida de Puppy será guiada pelas suas escolhas , influenciando suas experiências, amizades e aventuras."
-       TextColor="Black"
+<Label Text=" "
        Margin="50"
        FontSize="20"
        HorizontalOptions="Center"
@@ -45,7 +43,7 @@ Querido jogador,  A partir desse momento, a vida de Puppy será guiada pelas sua
                  FontSize="19"/>
 
 
-
+</VerticalStackLayout>
 
 
 

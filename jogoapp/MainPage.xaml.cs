@@ -12,18 +12,18 @@ public partial class MainPage : ContentPage
 	InitializeComponent();
 
 	}
-	private void StartButton_começar(object sender, EventArgs args)
+	private void StartButton_comecar(object sender, EventArgs args)
 	{
-		Application.Current.MainPage = new inicio();
+		Application.Current.MainPage = new iniciopage();
 	}
 	private void StartButton_sobre(object sender, EventArgs args)
-{
-  StartButton_sobre.IsVisible= true;
-}
-   private void voltar(object sender, EventArgs args)
-   {
-	sobre.IsVisible= false;
-   }
+    {
+        framesobre.IsVisible= true;
+    }
+    private void voltar(object sender, EventArgs args)
+    {
+	  framesobre.IsVisible= false;
+    }
 
 
 }

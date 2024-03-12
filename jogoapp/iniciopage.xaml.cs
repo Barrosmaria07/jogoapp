@@ -1,10 +1,10 @@
 namespace jogoapp;
 
-public partial class inicio : ContentPage
+public partial class iniciopage : ContentPage
 {
 		
 
-	public inicio()
+	public iniciopage()
 	{
         InitializeComponent();
     } 

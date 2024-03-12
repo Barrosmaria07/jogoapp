@@ -11,8 +11,8 @@ public static class MauiProgram
 			.UseMauiApp<App>()
 			.ConfigureFonts(fonts =>
 			{
-				fonts.AddFont("letranormal.otf", "letranormal");
-				fonts.AddFont("letrat.ttf", "letrat");
+				fonts.AddFont("primeirafonte.otf", "fonte");
+				
 			});
 
 #if DEBUG
