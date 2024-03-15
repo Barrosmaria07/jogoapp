@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="jogoapp.iniciopage">
+             x:Class="jogoapp.comecopage">
+
 
 
 <Grid>
     <Image
-    Source = "fotoinicio.png"
+    Source = "escolhaum.png"
      Aspect="AspectFill"/>
 
     <VerticalStackLayout
@@ -19,23 +20,25 @@
        FontSize="20"
        HorizontalOptions="Center"
 
-       />
- 
-    <Button Text="Continuar🐾"
-            Clicked="StartButton_continuar"
-            BorderColor="White"
-            BorderWidth="1"
-            Margin="2, 300, 2, 0"
-            HeightRequest="50"
-            CornerRadius="30"
-            BackgroundColor="#bd9d6a"
-            TextColor="#e6e2d1"
-            FontSize="19"/>
 
 
- <Button
-                  Text="voltar🐾"
-                  Clicked="StartButton_voltar"
+                <Button Text="Sim🐾"
+                  Clicked="StartButton_sim"
+                  BorderColor="White"
+                  BorderWidth="1"
+                  HeightRequest="50"
+                  CornerRadius="25"
+                  BackgroundColor="#bd9d6a"
+                  TextColor="white"
+                  Margin="0,0,0,20"
+                  FontSize="18"
+                  FontFamily="fonte"
+                  Grid.Row="2"/>
+
+
+                  
+                <Button Text="Não🐾"
+                  Clicked="StartButton_nao"
                   BorderColor="White"
                   BorderWidth="1"
                   HeightRequest="50"
@@ -48,9 +51,33 @@
                   Grid.Row="2"/>
                   
 
-</VerticalStackLayout>
+       
 
 
 
-</Grid>
-</ContentPage>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             </ContentPage>

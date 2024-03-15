@@ -41,7 +41,7 @@
            IsVisible="false"
            Margin="10,20"
            CornerRadius="20"
-           BackgroundColor="#c2b391"
+           BackgroundColor="#698a6a"
            HorizontalOptions="Fill"
            VerticalOptions="Fill">
                 <Grid>
@@ -51,8 +51,8 @@
                         <RowDefinition Height="60"/>
                   </Grid.RowDefinitions>
                 <Label
-                   Text="sobre"
-                   TextColor="#3b321c"
+                   Text="Sobre"
+                   TextColor="White"
                    Margin="20"
                    FontSize="20"
                    FontFamily="sobre"
@@ -61,7 +61,7 @@
                    Grid.Row="0"/>
 
                 <Label
-                    Text="Esse é um jogo desenvolvido por Maria Eduarda Cordeiro Barros, espero que gostem 😸"
+                    Text="Esse é um jogo desenvolvido por Maria Eduarda Cordeiro Barros do 3°B do Colégio Sesi Apucarana com orientação do professor Thiago Macedo, espero que gostem 😸"
                     CharacterSpacing="1"
                     LineHeight="1.5"
                     TextColor="White"
