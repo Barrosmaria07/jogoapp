@@ -25,7 +25,7 @@
             Clicked="StartButton_continuar"
             BorderColor="White"
             BorderWidth="1"
-            Margin="2, 300, 2, 0"
+            Margin="2, 350, 2, 0"
             HeightRequest="50"
             CornerRadius="30"
             BackgroundColor="#bd9d6a"

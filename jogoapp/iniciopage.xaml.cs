@@ -8,13 +8,14 @@ public partial class iniciopage : ContentPage
 	{
         InitializeComponent();
     } 
-private void StartButton_continuar(object sender, EventArgs args)
+    private void StartButton_continuar(object sender, EventArgs args)
 	{
-	Application.Current.MainPage = new comecopage();
+	Application.Current.MainPage = new ComecoPage();
 	}
+	
 	private void StartButton_voltar(object sender, EventArgs args)
-{
-Application.Current.MainPage = new MainPage();
-}
+    {
+     Application.Current.MainPage = new MainPage();
+    }
    
 }

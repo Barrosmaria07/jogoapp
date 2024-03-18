@@ -22,7 +22,7 @@ public partial class MainPage : ContentPage
     }
     private void voltar(object sender, EventArgs args)
     {
-	  framesobre.IsVisible= false;
+	    framesobre.IsVisible= false;
     }
 
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="jogoapp.ComecoPage">
+             x:Class="jogoapp.GameOverPage">
 
 
 
@@ -12,14 +12,14 @@
       <RowDefinition Height="60"/>
     </Grid.RowDefinitions>
 
-    <Image Source = "escolhaum.png"
+    <Image Source = "gameover.png"
            Aspect="AspectFill"
            Grid.Row="0"
            Grid.RowSpan="3"/>
        
     
-    <Button Text="Sim🐾"
-            Clicked="StartButton_sim"
+    <Button Text="Voltar🐾"
+            Clicked="StartButton_voltar"
             BorderColor="White"
             BorderWidth="1"
             HeightRequest="50"
@@ -32,19 +32,7 @@
             Grid.Row="1"/>
 
 
-                  
-    <Button Text="Não🐾"
-            Clicked="StartButton_nao"
-            BorderColor="White"
-            BorderWidth="1"
-            HeightRequest="50"
-            CornerRadius="25"
-            BackgroundColor="#bd9d6a"
-            TextColor="white"
-            Margin="0,0,0,20"
-            FontSize="18"
-            FontFamily="fonte"
-            Grid.Row="2"/>
-   
-  </Grid>
+
+
+      </Grid>
 </ContentPage>

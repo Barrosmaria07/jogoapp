@@ -1,22 +1,21 @@
 namespace jogoapp;
 
-public partial class comecopage : ContentPage
+public partial class ComecoPage : ContentPage
 {
 		
-
-	public comecopage()
+	public ComecoPage()
 	{
 
 	InitializeComponent();
 
 	}
-	private void Continuar(object sender, EventArgs args)
+	private void StartButton_sim(object sender, EventArgs args)
 	{
-		Application.Current.MainPage = new comecopage();
+		Application.Current.MainPage = new FimPage();
 	}
 	 private void StartButton_nao(object sender, EventArgs args)
     {
-	 Application.Current.MainPage = new comecopage();
+	    Application.Current.MainPage = new GameOverPage();
     }
 
 }
